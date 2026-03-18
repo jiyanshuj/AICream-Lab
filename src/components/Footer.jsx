@@ -162,7 +162,7 @@ export default function Footer() {
             <span className="footer-brand-name-3d">ICE cream hub</span>
           </div>
           <p className="footer-tagline-3d">
-            Where emotions become flavors. AI-curated, community-powered.
+            Where emotions become flavors. Curated with care, community-powered.
           </p>
           <div className="footer-social">
             {['🐦', '📸', '💼', '▶️'].map((icon, i) => (

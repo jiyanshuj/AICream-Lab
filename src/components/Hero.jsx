@@ -88,43 +88,43 @@ const CHIPS = [
   {
     label: '🍓 Strawberry Pop',
     img: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=60&h=60&fit=crop&q=80',
-    style: { top:'6%', left:'-8%', '--cd':'4.2s','--ce':'0s','--cr':'-4deg' }
+    style: { top: '6%', left: '-8%', '--cd': '4.2s', '--ce': '0s', '--cr': '-4deg' }
   },
   {
     label: '🌿 Mint Breeze',
     img: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=60&h=60&fit=crop&q=80',
-    style: { top:'34%', right:'-6%', '--cd':'3.8s','--ce':'0.6s','--cr':'3deg' }
+    style: { top: '34%', right: '-6%', '--cd': '3.8s', '--ce': '0.6s', '--cr': '3deg' }
   },
   {
     label: '🍫 Choco Lava',
     img: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=60&h=60&fit=crop&q=80',
-    style: { top:'62%', left:'-10%', '--cd':'5s','--ce':'1.2s','--cr':'-2deg' }
+    style: { top: '62%', left: '-10%', '--cd': '5s', '--ce': '1.2s', '--cr': '-2deg' }
   },
 ]
 
 const SPRINKLES = [
-  { w:24,h:8,  top:'18%',left:'80%', bg:'#ff6f91','--sd':'3.1s' },
-  { w:20,h:7,  top:'44%',left:'4%',  bg:'#4cc9f0','--sd':'4.2s' },
-  { w:18,h:6,  top:'72%',right:'4%', bg:'#ffd166','--sd':'2.8s' },
-  { w:14,h:5,  top:'8%', right:'18%',bg:'#7c3aed','--sd':'5s'   },
+  { w: 24, h: 8, top: '18%', left: '80%', bg: '#ff6f91', '--sd': '3.1s' },
+  { w: 20, h: 7, top: '44%', left: '4%', bg: '#4cc9f0', '--sd': '4.2s' },
+  { w: 18, h: 6, top: '72%', right: '4%', bg: '#ffd166', '--sd': '2.8s' },
+  { w: 14, h: 5, top: '8%', right: '18%', bg: '#7c3aed', '--sd': '5s' },
 ]
 
 // accent mini-scoops around the hero photo
 const ACCENTS = [
   {
-    size:72, top:'8%', right:'6%',
-    img:'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=144&h=144&fit=crop&q=80',
-    style:{'--af':'3.6s','--ad':'0s','--ar':'-5deg'},
+    size: 72, top: '8%', right: '6%',
+    img: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=144&h=144&fit=crop&q=80',
+    style: { '--af': '3.6s', '--ad': '0s', '--ar': '-5deg' },
   },
   {
-    size:58, top:'52%', left:'4%',
-    img:'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=116&h=116&fit=crop&q=80',
-    style:{'--af':'4.8s','--ad':'0.8s','--ar':'4deg'},
+    size: 58, top: '52%', left: '4%',
+    img: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=116&h=116&fit=crop&q=80',
+    style: { '--af': '4.8s', '--ad': '0.8s', '--ar': '4deg' },
   },
   {
-    size:50, bottom:'14%', right:'2%',
-    img:'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=100&h=100&fit=crop&q=80',
-    style:{'--af':'4.1s','--ad':'1.4s','--ar':'-3deg'},
+    size: 50, bottom: '14%', right: '2%',
+    img: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=100&h=100&fit=crop&q=80',
+    style: { '--af': '4.1s', '--ad': '1.4s', '--ar': '-3deg' },
   },
 ]
 
@@ -139,36 +139,36 @@ export default function Hero() {
     <header className="hero3d" id="home">
       {/* full-bleed background photo */}
       <div className="hero-bg-photo">
-        <img src="https://images.unsplash.com/photo-1587314168-abe4b34c4578?w=1400&h=900&fit=crop&q=60" alt="" aria-hidden="true"/>
+        <img src="https://images.unsplash.com/photo-1587314168-abe4b34c4578?w=1400&h=900&fit=crop&q=60" alt="" aria-hidden="true" />
       </div>
-      <div className="hero-bg-overlay"/>
+      <div className="hero-bg-overlay" />
 
       {/* blobs */}
-      <div className="h-blob" style={{width:500,height:500,top:'-10%',left:'-5%',background:'rgba(255,200,220,.35)','--dur':'9s','--dx':'30px','--dy':'20px'}}/>
-      <div className="h-blob" style={{width:400,height:400,bottom:'5%',right:'-8%',background:'rgba(180,200,255,.3)','--dur':'11s','--dx':'-20px','--dy':'-30px'}}/>
-      <div className="h-blob" style={{width:300,height:300,top:'40%',left:'40%',background:'rgba(255,220,150,.25)','--dur':'7s','--dx':'25px','--dy':'-15px'}}/>
+      <div className="h-blob" style={{ width: 500, height: 500, top: '-10%', left: '-5%', background: 'rgba(255,200,220,.35)', '--dur': '9s', '--dx': '30px', '--dy': '20px' }} />
+      <div className="h-blob" style={{ width: 400, height: 400, bottom: '5%', right: '-8%', background: 'rgba(180,200,255,.3)', '--dur': '11s', '--dx': '-20px', '--dy': '-30px' }} />
+      <div className="h-blob" style={{ width: 300, height: 300, top: '40%', left: '40%', background: 'rgba(255,220,150,.25)', '--dur': '7s', '--dx': '25px', '--dy': '-15px' }} />
 
       <div className="hero-inner">
         {/* Text */}
         <div>
-          <span className="hero-badge">✨ AI-Powered Experience</span>
+          <span className="hero-badge">✨ Signature Experience</span>
           <h1 className="hero-title">
-            Build Your<br/>
+            Build Your<br />
             <span className="hero-hl">Mood</span> Ice Cream
           </h1>
           <p className="hero-sub">
-            Where emotions become flavors. Discover AI-curated scoops, design your
+            Where emotions become flavors. Discover curated scoops, design your
             dream creation, and share it with the world.
           </p>
           <div className="hero-actions">
-            <a href="#mood"    className="h-btn-p">Explore Moods 🎭</a>
+            <a href="#mood" className="h-btn-p">Explore Moods 🎭</a>
             <a href="#builder" className="h-btn-s">Start Building 🍦</a>
           </div>
           <div className="hero-stats">
             <div><span className="hstat-num">10K+</span><span className="hstat-lbl">Creations Shared</span></div>
-            <div className="stat-sep"/>
+            <div className="stat-sep" />
             <div><span className="hstat-num">4</span><span className="hstat-lbl">Mood Profiles</span></div>
-            <div className="stat-sep"/>
+            <div className="stat-sep" />
             <div><span className="hstat-num">50+</span><span className="hstat-lbl">Flavor Combos</span></div>
           </div>
         </div>
@@ -177,25 +177,25 @@ export default function Hero() {
         <div className="hero-vis" aria-hidden="true">
           <div className="hero-photo-scene">
             {/* Floating flavor chips */}
-            {CHIPS.map((c,i) => (
+            {CHIPS.map((c, i) => (
               <div key={i} className="h-chip" style={c.style}>
-                <div className="h-chip-img"><img src={c.img} alt=""/></div>
+                <div className="h-chip-img"><img src={c.img} alt="" /></div>
                 {c.label}
               </div>
             ))}
 
             {/* Sprinkle dots */}
-            {SPRINKLES.map((s,i) => (
+            {SPRINKLES.map((s, i) => (
               <div key={i} className="sprk"
-                style={{width:s.w,height:s.h,top:s.top,left:s.left,right:s.right,bottom:s.bottom,background:s.bg,'--sd':s['--sd'],animationDelay:`${i*.4}s`}}
+                style={{ width: s.w, height: s.h, top: s.top, left: s.left, right: s.right, bottom: s.bottom, background: s.bg, '--sd': s['--sd'], animationDelay: `${i * .4}s` }}
               />
             ))}
 
             {/* Small accent scoops */}
-            {ACCENTS.map((a,i) => (
+            {ACCENTS.map((a, i) => (
               <div key={i} className="hero-scoop-accent"
-                style={{width:a.size,height:a.size,top:a.top,left:a.left,right:a.right,bottom:a.bottom,...a.style}}>
-                <img src={a.img} alt=""/>
+                style={{ width: a.size, height: a.size, top: a.top, left: a.left, right: a.right, bottom: a.bottom, ...a.style }}>
+                <img src={a.img} alt="" />
               </div>
             ))}
 

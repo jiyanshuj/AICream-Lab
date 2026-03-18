@@ -7,40 +7,40 @@ const MOOD_ENGINE = {
     gradient: 'linear-gradient(135deg,#ff6f91,#ffd166)',
     intro: "You're glowing today! 🌟",
     vibe: "Bright flavors match your bright energy!",
-    flavours: ['Strawberry Pop','Mango Tango','Bubblegum Bliss','Vanilla Nova'],
-    toppings:  ['Rainbow Sprinkles','Fresh Strawberries','Whipped Cream','Caramel Drizzle'],
-    colors:    ['#ff6f91','#ffd166','#ff9a3c'],
-    music:     ['Happy - Pharrell Williams','Good as Hell - Lizzo','Can\'t Stop the Feeling - Timberlake'],
+    flavours: ['Strawberry Pop', 'Mango Tango', 'Bubblegum Bliss', 'Vanilla Nova'],
+    toppings: ['Rainbow Sprinkles', 'Fresh Strawberries', 'Whipped Cream', 'Caramel Drizzle'],
+    colors: ['#ff6f91', '#ffd166', '#ff9a3c'],
+    music: ['Happy - Pharrell Williams', 'Good as Hell - Lizzo', 'Can\'t Stop the Feeling - Timberlake'],
   },
   Sad: {
     emoji: '😢',
     gradient: 'linear-gradient(135deg,#7f7fd5,#b4b8ff)',
     intro: "Hey, it'll get better 💙",
     vibe: "Rich, comforting flavors to lift your spirits.",
-    flavours: ['Blueberry Storm','Dark Choco Fudge','Cookies & Cream','Choco Lava'],
-    toppings:  ['Hot Fudge','Brownie Bites','Oreo Crumble','Chocolate Sauce'],
-    colors:    ['#7f7fd5','#b4b8ff','#4a3b8c'],
-    music:     ['Fix You - Coldplay','Someone Like You - Adele','The Night We Met - Lord Huron'],
+    flavours: ['Blueberry Storm', 'Dark Choco Fudge', 'Cookies & Cream', 'Choco Lava'],
+    toppings: ['Hot Fudge', 'Brownie Bites', 'Oreo Crumble', 'Chocolate Sauce'],
+    colors: ['#7f7fd5', '#b4b8ff', '#4a3b8c'],
+    music: ['Fix You - Coldplay', 'Someone Like You - Adele', 'The Night We Met - Lord Huron'],
   },
   Chill: {
     emoji: '😌',
     gradient: 'linear-gradient(135deg,#56cfe1,#72efdd)',
     intro: "Peaceful vibes only ✌️",
     vibe: "Cool and refreshing, just like your mood.",
-    flavours: ['Mint Breeze','Coconut Dream','Lemon Sorbet','Pistachio Soft'],
-    toppings:  ['Mint Chips','Toasted Coconut','Fresh Mint Leaves','Granola'],
-    colors:    ['#56cfe1','#72efdd','#0ea5e9'],
-    music:     ['Sunset Lover - Petit Biscuit','Breathe - Télépopmusik','Holocene - Bon Iver'],
+    flavours: ['Mint Breeze', 'Coconut Dream', 'Lemon Sorbet', 'Pistachio Soft'],
+    toppings: ['Mint Chips', 'Toasted Coconut', 'Fresh Mint Leaves', 'Granola'],
+    colors: ['#56cfe1', '#72efdd', '#0ea5e9'],
+    music: ['Sunset Lover - Petit Biscuit', 'Breathe - Télépopmusik', 'Holocene - Bon Iver'],
   },
   Stressed: {
     emoji: '😤',
     gradient: 'linear-gradient(135deg,#f4a261,#e76f51)',
     intro: "Take a deep breath 🍫",
     vibe: "Dark chocolate releases endorphins — science says so!",
-    flavours: ['Choco Lava','Salted Caramel','Dark Almond Crunch','Hazelnut Espresso'],
-    toppings:  ['Almond Crunch','Sea Salt Flakes','Dark Choco Shavings','Caramel Drizzle'],
-    colors:    ['#f4a261','#e76f51','#854f0b'],
-    music:     ['Stressed Out - Twenty One Pilots','Breathe (2AM) - Anna Nalick','The Less I Know - Tame Impala'],
+    flavours: ['Choco Lava', 'Salted Caramel', 'Dark Almond Crunch', 'Hazelnut Espresso'],
+    toppings: ['Almond Crunch', 'Sea Salt Flakes', 'Dark Choco Shavings', 'Caramel Drizzle'],
+    colors: ['#f4a261', '#e76f51', '#854f0b'],
+    music: ['Stressed Out - Twenty One Pilots', 'Breathe (2AM) - Anna Nalick', 'The Less I Know - Tame Impala'],
   },
 }
 
@@ -51,15 +51,15 @@ function rnd(arr) {
 
 // ── Real photos ─────────────────────────────────────────────────────────────
 const FLAVOUR_PHOTOS = {
-  Happy:    'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=500&h=500&fit=crop&q=85',
-  Sad:      'https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500&h=500&fit=crop&q=85',
-  Chill:    'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=500&h=500&fit=crop&q=85',
+  Happy: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=500&h=500&fit=crop&q=85',
+  Sad: 'https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500&h=500&fit=crop&q=85',
+  Chill: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=500&h=500&fit=crop&q=85',
   Stressed: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=500&h=500&fit=crop&q=85',
 }
 const TOPPING_PHOTOS = {
-  Happy:    'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=300&fit=crop&q=80',
-  Sad:      'https://images.unsplash.com/photo-1551024506-0bccd828d307?w=300&h=300&fit=crop&q=80',
-  Chill:    'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=300&fit=crop&q=80',
+  Happy: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=300&fit=crop&q=80',
+  Sad: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?w=300&h=300&fit=crop&q=80',
+  Chill: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=300&fit=crop&q=80',
   Stressed: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=300&h=300&fit=crop&q=80',
 }
 
@@ -124,10 +124,10 @@ const CSS = `
 `
 
 export default function MoodRecommender() {
-  const [mood,       setMood]       = useState('Happy')
+  const [mood, setMood] = useState('Happy')
   const [shuffleKey, setShuffleKey] = useState(0)
-  const [liked,      setLiked]      = useState(false)
-  const [animKey,    setAnimKey]    = useState(0)
+  const [liked, setLiked] = useState(false)
+  const [animKey, setAnimKey] = useState(0)
   const styleRef = useRef(false)
 
   useEffect(() => {
@@ -141,8 +141,8 @@ export default function MoodRecommender() {
   const rec = useMemo(() => {
     const p = MOOD_ENGINE[mood]
     if (!p) return null
-    const flavour  = rnd(p.flavours)
-    const topping  = rnd(p.toppings)
+    const flavour = rnd(p.flavours)
+    const topping = rnd(p.toppings)
     const playlist = rnd(p.music)
     return {
       ...p, flavour, topping, playlist,
@@ -151,13 +151,13 @@ export default function MoodRecommender() {
   }, [mood, shuffleKey])
 
   function switchMood(m) { setMood(m); setLiked(false); setAnimKey(k => k + 1) }
-  function remix()        { setShuffleKey(v => v + 1);  setAnimKey(k => k + 1) }
+  function remix() { setShuffleKey(v => v + 1); setAnimKey(k => k + 1) }
 
   if (!rec) return null
 
   return (
     <section className="mr-wrap" id="mood">
-      <span className="mr-badge">🤖 AI Powered</span>
+      <span className="mr-badge">✨ Flavor Match</span>
       <h2 className="mr-h2">Mood Recommender</h2>
       <p className="mr-sub">Tell us how you feel — we'll find your perfect scoop.</p>
 
@@ -179,7 +179,7 @@ export default function MoodRecommender() {
 
         {/* LEFT — vibe card */}
         <div className="vibe-card" style={{ background: rec.gradient }}>
-          <div className="vai-pill">✨ AI Vibe Check</div>
+          <div className="vai-pill">✨ Vibe Check</div>
           <h3 className="vibe-h">{rec.intro}</h3>
           <p className="vibe-p">{rec.message}</p>
           <a href="#builder" className="build-btn">🍦 Build This Combo ↗</a>
@@ -187,7 +187,7 @@ export default function MoodRecommender() {
 
         {/* CENTRE — real photo */}
         <div className="flavour-photo">
-          <img src={FLAVOUR_PHOTOS[mood]} alt={rec.flavour} loading="lazy"/>
+          <img src={FLAVOUR_PHOTOS[mood]} alt={rec.flavour} loading="lazy" />
           <div className="fp-label">
             <p className="fp-tag">Recommended Flavor</p>
             <p className="fp-name">{rec.flavour}</p>
@@ -201,7 +201,7 @@ export default function MoodRecommender() {
           {/* topping + photo */}
           <div className="mr-tile tile-ph">
             <div className="tile-ph-img">
-              <img src={TOPPING_PHOTOS[mood]} alt={rec.topping} loading="lazy"/>
+              <img src={TOPPING_PHOTOS[mood]} alt={rec.topping} loading="lazy" />
             </div>
             <div className="tile-body">
               <p className="tlbl">🎉 Topping Match</p>
@@ -215,7 +215,7 @@ export default function MoodRecommender() {
               <p className="tlbl">🎨 Color Mood</p>
               <div style={{ marginTop: 6 }}>
                 {rec.colors.map(c => (
-                  <span key={c} className="cdot" style={{ background: c }} title={c}/>
+                  <span key={c} className="cdot" style={{ background: c }} title={c} />
                 ))}
               </div>
             </div>
