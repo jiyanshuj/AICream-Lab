@@ -203,7 +203,7 @@ export default function Navbar({ cartCount = 0 }) {
       <div className="nav3d-inner">
         <a href="#" className="nav3d-brand">
           <span className="brand-icon-3d">🍦</span>
-          <span className="brand-name-3d">AICream Lab</span>
+          <span className="brand-name-3d">ICE cream hub</span>
         </a>
 
         <div className={`nav3d-links ${menuOpen ? 'open' : ''}`}>

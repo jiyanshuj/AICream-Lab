@@ -159,7 +159,7 @@ export default function Footer() {
         <div className="footer-brand-3d">
           <div className="footer-brand-logo">
             <span className="footer-icon-3d">🍦</span>
-            <span className="footer-brand-name-3d">AICream Lab</span>
+            <span className="footer-brand-name-3d">ICE cream hub</span>
           </div>
           <p className="footer-tagline-3d">
             Where emotions become flavors. AI-curated, community-powered.
@@ -182,7 +182,7 @@ export default function Footer() {
       </div>
 
       <div className="footer3d-bottom">
-        <p>© {new Date().getFullYear()} AICream Lab. Made with ❤️ and lots of scoops.</p>
+        <p>© {new Date().getFullYear()} ICE cream hub. Made with ❤️ and lots of scoops.</p>
         <div className="footer-bottom-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
